@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="dashboard.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
@@ -31,17 +31,41 @@
             <i class="fas fa-sign-out-alt"></i> Log Out
         </div>
     </div>
+
+
     <div class="main">
-    <div class="topbar">
-        <div class="search-box">
-            <input type="text" placeholder="Search here">
-            <i class="fas fa-search"></i>
+
+        <div class="topbar">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search here">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="profile">
+                <span>name sa user</span>
+                <img src="profile.jpg" alt="Profile Picture">
+            </div>
         </div>
-        <div class="profile">
-            <span>name sa user</span>
-            <img src="profile.jpg" alt="Profile Picture">
+
+    <div class="cards">
+
+    <div class="card">
+        <div class="icon">pic</div>
+        <div class="total">
+        <p class="text-muted">Total Customers</p>
+        <h2 >asdf</h2>
         </div>
     </div>
+
+    <div class="card">
+        <div class="icon">pic</div>
+        <div class="total">
+        <p class="text-muted">Total Debts</p>
+        <h2 >asdf</h2>
+    </div>
 </div>
+</div>
+    </div>
 </body>
 </html>

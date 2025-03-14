@@ -20,7 +20,7 @@ body {
 .sidebar {
     width: 250px;
     height: 95vh;
-    background: #93ca8c;
+    background: #6f9d69;
     color: white;
     padding: 20px;
     margin: 20px 30px;
@@ -73,7 +73,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #a7c2a3;
+    background: #b7d2b3;
     padding: 15px 30px;
     margin: 20px 5px;
     border-radius: 15px;
@@ -121,4 +121,38 @@ body {
 
 .profile span {
     font-weight: bold;
+}
+
+.cards{
+    display: flex;
+    gap: 50vh;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    width: 255px; 
+    height: 120px;
+    padding: 20px 30px;
+    margin: 20px 5px;
+    background: #b7d2b3;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;  /* Align items horizontally */
+    gap: 20px; 
+}
+.card .total{
+    font-size: 15px;
+
+}
+.icon {
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
 }
