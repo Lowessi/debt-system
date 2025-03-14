@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(225, 244, 225, 0.8); 
+    background: rgba(197, 235, 197, 0.8); 
 }
 
 
@@ -103,7 +103,7 @@ button {
     cursor: pointer;
     background-color: #4a4a4a;
     color: white;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 button:hover{

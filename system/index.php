@@ -66,6 +66,22 @@
     </div>
 </div>
 </div>
+
+    <div class="table">
+        <table class="due">
+            <thead>
+                <tr>
+                    <th>Customer</th>
+                    <th>Debt</th>
+                    <th>Quantity</th>
+                    <th>Due</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+        </table>
+        
+    </div>
     </div>
 </body>
 </html>

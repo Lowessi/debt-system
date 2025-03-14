@@ -14,7 +14,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
-    background-color: rgba(225, 244, 225, 0.8); 
+    background-color: rgba(197, 235, 197, 0.8); 
 }
 
 .sidebar {
@@ -26,7 +26,7 @@ body {
     margin: 20px 30px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .logo {
@@ -46,11 +46,12 @@ body {
     gap: 10px;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 25px;
 }
 
 .menu li:hover {
     background: #446740;
-    border-radius: 8px;
+    border-radius: 25px;
 }
 
 .logout {
@@ -61,7 +62,7 @@ body {
     gap: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+    border-radius: 25px;
     text-align: center;
 }
 
@@ -73,10 +74,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #b7d2b3;
+    background: white;
     padding: 15px 30px;
     margin: 20px 5px;
-    border-radius: 15px;
+    border-radius: 25px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 80vw;
 }
@@ -84,10 +85,7 @@ body {
 .search-box {
     display: flex;
     align-items: center;
-    background: white;
     padding: 5px;
-    border-radius: 15px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     width: 400px;
     
 }
@@ -96,9 +94,19 @@ body {
     flex: 1; 
     border: none;
     outline: none;
-    padding: 5px 5px;
+    padding: 10px 5px;
     font-size: 15px;
     width: 100%;
+    background-color: rgba(197, 235, 197, 0.8); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+
+
+}
+.search-box input::placeholder{
+    color:  #689262;
+    font-weight: bold;
 }
 
 .search-box i {
@@ -134,19 +142,21 @@ body {
     height: 120px;
     padding: 20px 30px;
     margin: 20px 5px;
-    background: #b7d2b3;
-    border-radius: 15px;
+    background: white;
+    border-radius: 25px;
     display: flex;
     align-items: center;  /* Align items horizontally */
     gap: 20px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 .card .total{
     font-size: 15px;
 
 }
 .icon {
-    background: white;
-    color: black;
+    background: #6f9d69;
+    color: white;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -156,3 +166,19 @@ body {
     flex-direction: column;
    
 }
+
+.table {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.due{
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 2px solid  rgba(197, 235, 197, 0.8); 
+    
+}
+
