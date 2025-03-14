@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(225, 244, 225, 0.8); 
+}
+
+
+.container {
+    display: flex;
+    width: 800px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+}
+
+.left{
+    width: 40%;
+    background: #93ca8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.left img {
+    width: 100%;
+    max-width: 3000px;
+}
+
+.left h2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 70px;
+}
+
+.left p {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+}
+
+.right {
+    width: 60%;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.right h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    font-size: 12px;
+    color: #555;
+    text-decoration: none;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: #8c8b8b;
+
+}
+
+.or {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #888;
+}
+
+
+.signup {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+.rightt{
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 400px;
+        text-align: center;
+}
