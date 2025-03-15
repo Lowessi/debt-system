@@ -1,3 +1,16 @@
+<?php
+session_start();
+include('db.php');
+if (!isset($_SESSION['user'])) {
+    header("Location: login.php");
+    exit();
+}
+?>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,9 +40,9 @@
             <li><i class="fas fa-file-invoice-dollar"></i> ambot</li>
             <li><i class="fas fa-cog"></i> ambot</li>
         </ul>
-        <div class="logout">
+        <a href="logout.php" class="logout">
             <i class="fas fa-sign-out-alt"></i> Log Out
-        </div>
+        </a>
     </div>
 
 
@@ -43,7 +56,7 @@
             </div>
 
             <div class="profile">
-                <span>name sa user</span>
+                <span ><?php echo $_SESSION['user']; ?></span>
                 <img src="profile.jpg" alt="Profile Picture">
             </div>
         </div>

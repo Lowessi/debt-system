@@ -1,3 +1,40 @@
+<?php
+
+session_start();
+if (isset($_SESSION['user'])) {
+    header("Location: index.php"); // Redirect to home/dashboard
+    exit();
+}
+include('db.php');
+
+if(isset($_GET['register'])){
+
+    $USER = $_GET['user'];
+    $EMAIL = $_GET['email'];
+    $PASS = $_GET['pass'];
+    $CONPASS = $_GET['conpass'];
+
+    $result = mysqli_query($con, "SELECT * FROM `tb_users` WHERE user = '$USER'");
+    $unique = mysqli_fetch_assoc($result);
+
+    if($unique){
+
+        die('Error: Username taken');
+    }else if($PASS !== $CONPASS){
+        die('Error: Password do not match');
+    }else{
+
+        $hashed= password_hash($PASS, PASSWORD_DEFAULT);
+        mysqli_query($con, "INSERT INTO `tb_users`( `user`, `email`, `pass`) VALUES ('$USER','$EMAIL','$hashed')");
+        header('Location:' . $_SERVER['PHP_SELF']);
+        exit();
+    }
+
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,18 +50,18 @@
             <h1>Create an Account</h1>
             <form action="#">
                 <label for="user">Username</label>
-                <input type="text" id="fullname" placeholder="Enter your full name">
+                <input type="text" name="user" placeholder="Enter your Username" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email">
+                <input type="email" name="email" placeholder="Enter your email" required>
 
                 <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Create a password">
+                <input type="password" name="pass" placeholder="Create a password" required>
 
                 <label for="confirm-password">Confirm Password</label>
-                <input type="password" id="confirm-password" placeholder="Confirm your password">
+                <input type="password" name="conpass" placeholder="Confirm your password" required>
 
-                <button type="submit">Sign up</button>
+                <button type="submit" name='register'>Sign up</button>
 
                 <p class="or">or</p>
 
