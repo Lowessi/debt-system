@@ -137,3 +137,6 @@ button:hover{
         width: 400px;
         text-align: center;
 }
+.error{
+    color: red;
+}

@@ -183,6 +183,12 @@ body {
     margin: 20px;
 }
 
+th , td{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid  rgba(197, 235, 197, 0.8); 
+}
+
 .due{
     width: 100%;
     border-collapse: collapse;

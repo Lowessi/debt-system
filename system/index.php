@@ -26,19 +26,16 @@ if (!isset($_SESSION['user'])) {
     
     <div class="sidebar">
         <div class="logo">
-            <h2>ambotambot</h2>
+            <h2>DEBTCO</h2>
         </div>
         <ul class="menu">
-            <li><i class="fas fa-home"></i> ambot</li>
-            <li><i class="fas fa-building"></i> ambot</li>
-            <li><i class="fas fa-calculator"></i> Aambote</li>
-            <li><i class="fas fa-users"></i> ambot</li>
-            <li><i class="fas fa-key"></i> Tambotn</li>
-            <li><i class="fas fa-clock"></i> ambot</li>
-            <li><i class="fas fa-bell"></i> ambot</li>
-            <li><i class="fas fa-bullhorn"></i> ambot</li>
-            <li><i class="fas fa-file-invoice-dollar"></i> ambot</li>
-            <li><i class="fas fa-cog"></i> ambot</li>
+            <li><i class="fas fa-home"></i> Account</li>
+            <li><i class="fas fa-building"></i> Customers</li>
+            <li><i class="fas fa-calculator"></i> Debt</li>
+            <li><i class="fas fa-users"></i> Calendar</li>
+            <li><i class="fas fa-key"></i> Completed</li>
+            <li><i class="fas fa-bell"></i> Settings</li>
+
         </ul>
         <a href="logout.php" class="logout">
             <i class="fas fa-sign-out-alt"></i> Log Out
@@ -67,7 +64,7 @@ if (!isset($_SESSION['user'])) {
         <div class="icon">pic</div>
         <div class="total">
         <p class="text-muted">Total Customers</p>
-        <h2 >asdf</h2>
+        <h2 >0</h2>
         </div>
     </div>
 
@@ -75,7 +72,7 @@ if (!isset($_SESSION['user'])) {
         <div class="icon">pic</div>
         <div class="total">
         <p class="text-muted">Total Debts</p>
-        <h2 >asdf</h2>
+        <h2 >0</h2>
     </div>
 </div>
 </div>
@@ -90,6 +87,14 @@ if (!isset($_SESSION['user'])) {
                     <th>Due</th>
                     <th>Total</th>
                     <th>Status</th>
+                </tr>
+                <tr>
+                    <td>q</td>
+                    <td>q</td>
+                    <td>q</td>
+                    <td>q</td>
+                    <td>q</td>
+                    <td>q</td>
                 </tr>
             </thead>
         </table>
