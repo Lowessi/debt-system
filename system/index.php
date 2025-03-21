@@ -29,12 +29,13 @@ if (!isset($_SESSION['user'])) {
             <h2>DEBTCO</h2>
         </div>
         <ul class="menu">
-            <li><i class="fas fa-home"></i> Account</li>
-            <li><i class="fas fa-building"></i> Customers</li>
-            <li><i class="fas fa-calculator"></i> Debt</li>
-            <li><i class="fas fa-users"></i> Calendar</li>
-            <li><i class="fas fa-key"></i> Completed</li>
-            <li><i class="fas fa-bell"></i> Settings</li>
+            <li><a href="Account.php"><i class="fa-solid fa-circle-user"></i> Account</a></li>
+            <li><a href="customer.php"><i class="fas fa-building"></i> Customers</a></li>
+            <li><a href="Debt.php"><i class="fas fa-building"></i> Debt</a></li>
+            <li><a href="Calendar.php"><i class="fas fa-building"></i> Calendar</a></li>
+            <li><a href="Complete.php"><i class="fas fa-building"></i> Completed</a></li>
+            <li><a href="Settings.php"><i class="fa-solid fa-gear"></i> Settings</a></li>
+
 
         </ul>
         <a href="logout.php" class="logout">
@@ -89,12 +90,12 @@ if (!isset($_SESSION['user'])) {
                     <th>Status</th>
                 </tr>
                 <tr>
-                    <td>q</td>
-                    <td>q</td>
-                    <td>q</td>
-                    <td>q</td>
-                    <td>q</td>
-                    <td>q</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </thead>
         </table>
