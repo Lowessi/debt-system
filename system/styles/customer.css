@@ -31,6 +31,7 @@ body {
 .sidebar a{
     color: white;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -74,6 +75,68 @@ body {
 
 }
 
+
 .logout:hover {
     background: #446740;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    margin: 20px 5px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80vw;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    width: 400px;
+    
+}
+
+.search-box input {
+    flex: 1; 
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(197, 235, 197, 0.8); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+
+
+
+}
+.search-box input::placeholder{
+    color:  #689262;
+    font-weight: bold;
+}
+
+.search-box i {
+    color: gray;
+    margin-left: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.profile span {
+    font-weight: bold;
 }

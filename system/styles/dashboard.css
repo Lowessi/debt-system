@@ -31,6 +31,7 @@ body {
 .sidebar a{
     color: white;
     text-decoration: none;
+    text-align: center;
 
 }
 
@@ -73,6 +74,7 @@ body {
     text-decoration: none;
 
 }
+
 
 .logout:hover {
     background: #446740;
@@ -140,22 +142,29 @@ body {
 }
 
 .cards{
+    width: 80vw;
     display: flex;
-    gap: 50vh;
+    gap: 10vh;
     text-align: center;
     justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+
+
 }
 .card{
-    width: 255px; 
-    height: 120px;
-    padding: 20px 30px;
-    margin: 20px 5px;
+    width: 300px;
+    height: 90px;
+    padding: 5px 5px;
+    margin: 5px 5px;
     background: white;
     border-radius: 25px;
     display: flex;
     align-items: center;  /* Align items horizontally */
-    gap: 20px; 
+    gap: 50px; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
 
 }
 .card .total{
@@ -178,9 +187,10 @@ body {
 .table {
     background: white;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 25px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
+    height: 70vh;
 }
 
 th , td{

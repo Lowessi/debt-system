@@ -17,7 +17,7 @@ if (!isset($_SESSION['user'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="styles/dashboard.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,6 +29,7 @@ if (!isset($_SESSION['user'])) {
             <h2>DEBTCO</h2>
         </div>
         <ul class="menu">
+            <li><a href="index.php"><i class="fa-solid fa-circle-user"></i> Home</a></li>
             <li><a href="Account.php"><i class="fa-solid fa-circle-user"></i> Account</a></li>
             <li><a href="customer.php"><i class="fas fa-building"></i> Customers</a></li>
             <li><a href="Debt.php"><i class="fas fa-building"></i> Debt</a></li>
