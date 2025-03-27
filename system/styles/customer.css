@@ -26,7 +26,7 @@ body {
     margin: 20px 30px;
     display: flex;
     flex-direction: column;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 .sidebar a{
     color: white;
@@ -69,7 +69,7 @@ body {
     gap: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 25px;
+    border-radius: 15px;
     text-align: center;
     text-decoration: none;
 
@@ -87,7 +87,7 @@ body {
     background: white;
     padding: 15px 30px;
     margin: 20px 5px;
-    border-radius: 25px;
+    border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 80vw;
 }
@@ -139,4 +139,46 @@ body {
 
 .profile span {
     font-weight: bold;
+}
+
+.addcus{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 15px 25px;
+
+   
+}
+.addcus input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    font-size: 15px;
+    background-color: rgba(197, 235, 197, 0.8); 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 375px;
+    margin: 0px 20px;
+
+}
+.addcus input::placeholder{
+    color:  #689262;
+    font-weight: bold;
+}
+.addcus button{
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+
+}
+.addcus button:hover{
+    background-color: #446740;
+    color: white;
+}
+.addcus button:active {
+    transform: scale(0.95);
+    transition: transform 50ms ease-out; /* Smooth effect */
 }

@@ -52,6 +52,11 @@ include('db.php');
                 <span ><?php echo $_SESSION['user']; ?></span>
                 <img src="profile.jpg" alt="Profile Picture">
             </div>
+
         </div>
+            <div class="addcus">
+                <input type="text" name="cust" placeholder="Customer name">
+                <a href=""><button>ADD</button></a>
+            </div>
     </body>
 </html>
