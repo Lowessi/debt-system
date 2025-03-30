@@ -26,7 +26,7 @@ body {
     margin: 20px 30px;
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .sidebar a{
     color: white;
@@ -56,12 +56,12 @@ i{
     gap: 10px;
     cursor: pointer;
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .menu li:hover {
     background: #446740;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .logout {
@@ -73,7 +73,7 @@ i{
     gap: 10px;
     cursor: pointer;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
 
@@ -91,7 +91,7 @@ i{
     background: white;
     padding: 15px 30px;
     margin: 20px 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     width: 80vw;
 }
@@ -113,7 +113,7 @@ i{
     width: 100%;
     background-color: rgba(197, 235, 197, 0.8); 
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    border-radius: 10px;
 
 
 
@@ -163,7 +163,7 @@ i{
     width: 100%;
     background-color: rgba(197, 235, 197, 0.8); 
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
+    border-radius: 10px;
 
 
 
