@@ -18,8 +18,7 @@ if (!isset($_SESSION['user'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles/dashboard.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
+    <script src="https://kit.fontawesome.com/a79b2589d4.js" crossorigin="anonymous"></script></head>
 <body>
 
 
@@ -29,11 +28,12 @@ if (!isset($_SESSION['user'])) {
             <h2>DEBTCO</h2>
         </div>
         <ul class="menu">
-            <li><a href="index.php"><i class="fa-solid fa-circle-user"></i> Home</a></li>
+            <li><a href="index.php"><i class="fa-solid fa-house"></i></i> Home</a></li>
             <li><a href="Account.php"><i class="fa-solid fa-circle-user"></i> Account</a></li>
-            <li><a href="Debt.php"><i class="fas fa-building"></i> Debt</a></li>
-            <li><a href="Calendar.php"><i class="fas fa-building"></i> Calendar</a></li>
-            <li><a href="Complete.php"><i class="fas fa-building"></i> Completed</a></li>
+            <li><a href="customer.php"><i class="fa-solid fa-users"></i> Customer</a></li>
+            <li><a href="Debt.php"><i class="fa-solid fa-address-book"></i></i> Debt</a></li>
+            <li><a href="Calendar.php"><i class="fa-solid fa-calendar"></i> Calendar</a></li>
+            <li><a href="Complete.php"><i class="fa-solid fa-circle-check"></i></i> Completed</a></li>
             <li><a href="Settings.php"><i class="fa-solid fa-gear"></i> Settings</a></li>
 
 
@@ -89,15 +89,17 @@ if (!isset($_SESSION['user'])) {
                     <th>Total</th>
                     <th>Status</th>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                    <td>a</td>
+                </tr>
+            </tbody>
         </table>
         
     </div>
