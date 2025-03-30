@@ -31,7 +31,6 @@ if (!isset($_SESSION['user'])) {
         <ul class="menu">
             <li><a href="index.php"><i class="fa-solid fa-circle-user"></i> Home</a></li>
             <li><a href="Account.php"><i class="fa-solid fa-circle-user"></i> Account</a></li>
-            <li><a href="customer.php"><i class="fas fa-building"></i> Customers</a></li>
             <li><a href="Debt.php"><i class="fas fa-building"></i> Debt</a></li>
             <li><a href="Calendar.php"><i class="fas fa-building"></i> Calendar</a></li>
             <li><a href="Complete.php"><i class="fas fa-building"></i> Completed</a></li>
